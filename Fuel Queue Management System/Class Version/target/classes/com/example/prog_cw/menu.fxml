@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white; -fx-border-width: 5; -fx-border-color: gold;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prog_cw.Task_4_Controller">
+   <children>
+      <ImageView fitHeight="331.0" fitWidth="591.0" layoutX="-60.0" layoutY="57.0">
+         <image>
+            <Image url="file:/Users/sarithwijesundera/Desktop/w1912785_Prog_CW/src/main/java/com/example/Images/fuel_pump_2_menu.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="59.0" layoutY="31.0" text="Fuel Queue Management System">
+         <font>
+            <Font name="Lucida Grande" size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="166.0" layoutY="135.0" mnemonicParsing="false" onAction="#view_all" prefHeight="26.0" prefWidth="136.0" style="-fx-background-color: #34c9eb#34c9eb #34c9eb#34c9eb;" text="View All Queues">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="166.0" layoutY="182.0" mnemonicParsing="false" onAction="#search" style="-fx-background-color: #34eb43#34eb43 #34eb43#34eb43;" text="Search a Customer">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="165.0" layoutY="228.0" mnemonicParsing="false" onAction="#quit" prefHeight="26.0" prefWidth="136.0" style="-fx-background-color: #ff7070#ff7070 #ff7070#ff7070;" text="Exit">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="183.0" layoutY="282.0" text="Menu">
+         <font>
+            <Font name="Avenir Next Bold" size="35.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.9403550624847412" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9736841917037964" green="0.9334145784378052" blue="0.3696393668651581" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+   </children>
+</AnchorPane>
